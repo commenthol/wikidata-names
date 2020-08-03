@@ -1,0 +1,49 @@
+{
+  "name": "wikidata-names",
+  "version": "1.0.0-0",
+  "description": "name datasets from wikidata",
+  "keywords": [
+    "data",
+    "dataset",
+    "family",
+    "female",
+    "firstname",
+    "given",
+    "lastname",
+    "male",
+    "name",
+    "names",
+    "person",
+    "personal",
+    "unisex",
+    "wikidata"
+  ],
+  "homepage": "https://github.com/commenthol/wikidata-names#readme",
+  "bugs": {
+    "url": "https://github.com/commenthol/wikidata-names/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commenthol/wikidata-names.git"
+  },
+  "license": "Unlicense",
+  "author": "commenthol",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "start": "node scripts/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "JSONStream": "^1.3.5",
+    "eslint": "^7.6.0",
+    "mocha": "^8.1.0",
+    "through2": "^4.0.2",
+    "typescript": "^3.9.7",
+    "wikidata-sdk": "^7.7.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
