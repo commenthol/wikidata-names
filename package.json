@@ -1,6 +1,6 @@
 {
   "name": "wikidata-names",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "name datasets from wikidata",
   "keywords": [
     "data",
